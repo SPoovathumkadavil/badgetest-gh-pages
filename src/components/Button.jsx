@@ -22,7 +22,7 @@ export const Button = ({
         : SIZES[0]
     
     return (
-        <Link to="/profile" className="btn-mobile" >
+        <Link to="/badgetest-gh-pages/profile" className="btn-mobile" >
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}

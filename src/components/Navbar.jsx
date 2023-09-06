@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/badgetest-gh-pages/' className='navbar-logo' onClick={closeMobileMenu}>
                     4500&nbsp;&nbsp;
                     <i className='fa-solid fa-robot' />
                 </Link>
@@ -37,14 +37,14 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/badgetest-gh-pages/' className='nav-links' onClick={closeMobileMenu}>
                         Home
                     </Link>
                     </li>
 
                     <li>
                     <Link
-                        to='/profile'
+                        to='/badgetest-gh-pages/profile'
                         className='nav-links-mobile'
                         onClick={closeMobileMenu}
                     >

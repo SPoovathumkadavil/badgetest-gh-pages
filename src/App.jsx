@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={ <Home /> } exact />
-          <Route path='/profile' element={ <Profile />} />
+          <Route path='/badgetest-gh-pages/' element={ <Home /> } exact />
+          <Route path='/badgetest-ghpages/profile' element={ <Profile />} />
         </Routes>
       </Router>
     </>
